@@ -8,9 +8,9 @@ repository = "https://github.com/ezyang/ghstack"
 include = ["ghstack/py.typed"]
 license = "MIT"
 classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
 ]
 
 [tool.poetry.scripts]
@@ -19,7 +19,7 @@ ghstack = "ghstack.__main__:main"
 [tool.poetry.dependencies]
 aiohttp = "^3"
 dataclasses = { version = "^0.8", python = "<3.7" }
-importlib-metadata = "^3"
+importlib-metadata = "^1.7.0"
 python = "^3.6"
 requests = "^2"
 typing-extensions = "^3"
